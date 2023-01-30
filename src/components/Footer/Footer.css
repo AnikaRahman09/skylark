@@ -143,3 +143,25 @@ footer {
     color: #FFFFFF; 
     opacity: 0.6;
 }
+
+.bottom-footer .terms-nav .social{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 13px;
+width: 127.22px;
+height: 14.22px;
+color: white;
+opacity: 0.6;
+}
+.bottom-footer .terms-nav .social p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 115.2%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;   
+}

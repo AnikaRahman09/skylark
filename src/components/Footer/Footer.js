@@ -1,5 +1,6 @@
 import React from 'react';
-import "./Footer.css"
+import "./Footer.css";
+import image from './Vector.png';
 
 const Footer = () => {
     return (
@@ -39,7 +40,10 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="social">dd</div>
+                    <div className="social">
+                        <img src={image} alt="" />
+                        <p>Follow Us on Linkedin</p>
+                    </div>
                 </div>
             </div>
 
