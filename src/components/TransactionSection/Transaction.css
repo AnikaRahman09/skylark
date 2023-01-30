@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+.transaction-section {
+    position: absolute;
+    width: 1440px;
+    height: 764px;
+    left: 0px;
+    top: 1650px;
+}
+
+.transaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    left: 1.04%;
+    right: 5.83%;
+    top: 5.69%;
+    bottom: 7.66%;
+}
+
+
+/* TRANSACTION HADING AND BUTTON */
+.transaction .trans-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 38px;
+    width: 1236px;
+    height: 69px;
+    margin-left: 67.5px;
+}
+
+.transaction .trans-content .trans-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 775px;
+    height: 69px;
+}
+
+.transaction .trans-content .trans-heading h6 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: #353D45;
+}
+
+.transaction .trans-content .trans-heading .underline {
+    width: 174px;
+    height: 1px;
+    background: #C2A5F9;
+    border: none;
+}
+
+/* BUTTON */
+.transaction .trans-content .trans-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 18px;
+    gap: 10px;
+    width: 210px;
+    height: 43px;
+    border: 1px solid #353D45;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.transaction .trans-content .trans-btn a {
+    width: 170px;
+    height: 13px;
+    font-family: interstate, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.115em;
+    text-transform: uppercase;
+    color: #353D45;
+}
+
+
+/* TRANSACTION CARDS */
+.transaction .transaction-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    width: 1237px;
+    height: 545px;
+}
+
+.transaction .transaction-cards img {
+    width: 440px;
+    height: 521.41px;
+
+}

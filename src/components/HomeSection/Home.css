@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.bg-image {
+    background-image: url(./ImageBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 982px;
+    position: absolute;
+
+    height: 982px;
+    left: -54px;
+    top: 0px;
+}
+
+.bg-image .bg-overlay {
+    position: absolute;
+    height: 982px;
+    left: -54px;
+    right: -54px;
+    /* width: 100%; */
+    top: 0px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(42.36deg, rgba(22, 30, 47, 0.5) 30.86%, rgba(22, 30, 47, 0.04) 80.06%);
+}
+
+.bg-image .bg-overlay .home-content {
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #fff;
+}
+
+.bg-image .bg-overlay .home-content .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0;
+    width: 540px;
+    position: absolute;
+    left: 168px;
+    top: 182px;
+}
+
+
+/* LEARN MORE */
+.bg-image .bg-overlay .home-content .about-us .learn-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+}
+
+.bg-image .bg-overlay .home-content .about-us .learn-more p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.bg-image .bg-overlay .home-content .about-us .learn-more:hover {
+    cursor: pointer;
+}
+
+
+/* TABS */
+.bg-image .bg-overlay .home-content .tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1104px;
+    height: 43.46px;
+    left: 168px;
+    top: 797.08px;
+}
+
+.bg-image .bg-overlay .home-content .tabs .tab-style {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    width: 258px;
+    height: 59.63px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+/* Button */
+.bg-image .bg-overlay .home-content .tabs .tab-style .line-button {
+    width: 258px;
+    height: 1.63px;
+    background: #FFFFFF;
+    border: none;
+
+}
+
+.bg-image .bg-overlay .home-content .tabs .tab-style:hover {
+    opacity: 1;
+    cursor: pointer;
+    gap: 14px;
+}

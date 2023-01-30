@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: square;
+    /* height: 160px; */
+}
+
+li {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 158%;
+    /* or 40px */
+
+    letter-spacing: -0.5px;
+
+    color: #000000;
+}
+
+.works {
+    position: absolute;
+    width: 1440px;
+    height: 590px;
+    left: 0px;
+    /* right: 0px; */
+    top: 1044px;
+    display: flex;
+    flex-direction: row;
+}
+
+.works .design {
+    background: rgba(255, 179, 218, 0.5);
+    padding-top: 106px;
+    width: 480px;
+    height: 588px;
+}
+.works .website {
+    background: rgba(21, 112, 255, 0.5);
+    padding-top: 56px;
+    width: 480px;
+    height: 588px;
+}
+.works .app {
+    background: rgba(157, 222, 244, 0.5);
+    padding-top: 54px;
+    width: 480px;
+    height: 588px;
+}
+
+.works .design .work-content{
+    height: 406px !important;
+}
+
+.works .work .work-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 40px;
+    height: 456px;
+}
+
+.works .work .work-content img {
+    width: 100px;
+    height: 100px;
+}
+
+.works .work .work-content .work-heading {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: xx-large;
+    color: #000000;
+}
+
+.works .work .work-content .work-heading h2 {
+    border-bottom: 6px solid rgba(0, 0, 0, 0.5);
+    width: 130px;
+    margin-top: 14px;
+    line-height: 130.2%;
+    margin-bottom: 38px;
+}
+
+
+/* BUTTON */
+.works .work .learn-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 32px;
+    margin-bottom: 24px;
+}
+
+.works .work .learn-btn a{
+    width: 160px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}

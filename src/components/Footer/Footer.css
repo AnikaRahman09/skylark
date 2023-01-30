@@ -1,0 +1,145 @@
+ul {
+    list-style: none;
+    /* font-family: 'Interstate';
+    font-style: normal;
+    font-weight: 700; */
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+footer {
+    position: absolute;
+    width: 1436px;
+    height: 188px;
+    left: 4px;
+    top: 3346px;
+}
+
+
+/* TOP FOOTER */
+.top-footer {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -0.09%;
+    bottom: 33.96%;
+    background: #C2A5F9;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-footer .footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 42px;
+}
+
+.top-footer .footer-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 6px;
+    gap: 28px;
+    position: absolute;
+    left: 3.06%;
+    right: 20.89%;
+    top: 23.4%;
+    bottom: 57.98%;
+    margin-top: 34px;
+}
+
+.top-footer .footer-nav ul li {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* BUTTON */
+.top-footer .footer-nav .subscribe-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 20px;
+    gap: 10px;
+    position: absolute;
+    width: 210px;
+    height: 43px;
+    left: 1178px;
+    top: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.top-footer .footer-nav .subscribe-btn div {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.115em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+/* TOP FOOTER */
+
+/* BOTTOM FOOTER */
+.bottom-footer {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 66.33%;
+    bottom: 0%;
+    background: #9E78E8;
+}
+
+.bottom-footer .terms-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 47px;
+
+    position: absolute;
+    left: 3.36%;
+    right: 3.36%;
+    top: 79.09%;
+    bottom: 13.34%;
+}
+
+.bottom-footer .terms-nav .terms ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 437px;
+    height: 12.44px;
+}
+
+.bottom-footer .terms-nav .terms ul li {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 115.2%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF; 
+    opacity: 0.6;
+}

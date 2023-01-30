@@ -1,0 +1,103 @@
+.promo-section {
+    position: absolute;
+    width: 1436px;
+    height: 809.99px;
+    left: 4px;
+    top: 2476px;
+}
+
+.promo-section .promo-bg {
+    height: 809.99px;
+    background: #7C7068;
+    mix-blend-mode: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-section .promo-bg .promo-content {
+    font-family: interstate-compressed, sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    margin-left: 99px;
+}
+
+.promo-section .promo-bg .promo-content .promo-heading {
+    width: 540px;
+    /* height: 78px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.promo-section .promo-bg .promo-content .promo-heading h3 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 120.5%;
+    letter-spacing: -0.02em;
+}
+
+.promo-section .promo-bg .promo-content .promo-heading .underline {
+    width: 174px;
+    height: 1px;
+    background: #C2A5F9;
+}
+
+.promo-section .promo-bg .promo-content .promo-details {
+    font-weight: 200;
+    width: 511px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 164.5%;
+    /* or 26px */
+    display: flex;
+    align-items: center;
+}
+
+.promo-section .promo-bg .promo-content .promo-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 309px;
+    height: 43px;
+}
+
+.promo-section .promo-bg .promo-content .promo-btns .btns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 12px;
+    gap: 10px;
+    width: 143px;
+    height: 43px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.promo-section .promo-bg .promo-content .promo-btns .btns div {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.115em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* IMAGE */
+.promo-section .promo-bg .promo-img img {
+    width: 702.29px;
+    height: 809.99px;
+}
