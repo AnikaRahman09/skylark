@@ -2,9 +2,9 @@
 
 .transaction-section {
     position: absolute;
-    width: 1440px;
+    width: 1548px;
     height: 764px;
-    left: 0px;
+    /* left: 0px; */
     top: 1650px;
 }
 
@@ -33,7 +33,6 @@
     gap: 38px;
     width: 1236px;
     height: 69px;
-    margin-left: 67.5px;
 }
 
 .transaction .trans-content .trans-heading {
@@ -110,4 +109,10 @@
     width: 440px;
     height: 521.41px;
 
+}
+
+@media screen and (max-width: 1450px){
+    .transaction-section{
+        width: 1450px;
+    }
 }

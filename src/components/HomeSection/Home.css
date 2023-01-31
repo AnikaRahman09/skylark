@@ -21,21 +21,21 @@ a {
     background-image: url(./ImageBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1548px;
     height: 982px;
     position: absolute;
 
     height: 982px;
-    left: -54px;
+    /* left: -54px; */
     top: 0px;
 }
 
 .bg-image .bg-overlay {
     position: absolute;
     height: 982px;
-    left: -54px;
-    right: -54px;
-    /* width: 100%; */
+    /* left: -54px;
+    right: -54px; */
+    width: 100%;
     top: 0px;
 
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(42.36deg, rgba(22, 30, 47, 0.5) 30.86%, rgba(22, 30, 47, 0.04) 80.06%);
@@ -70,7 +70,7 @@ a {
     gap: 18px;
 }
 
-.bg-image .bg-overlay .home-content .about-us .learn-more p{
+.bg-image .bg-overlay .home-content .about-us .learn-more p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -124,4 +124,11 @@ a {
     opacity: 1;
     cursor: pointer;
     gap: 14px;
+}
+
+@media screen and (max-width: 1450px) {
+
+    .bg-image {
+        width: 1450px;
+    }
 }

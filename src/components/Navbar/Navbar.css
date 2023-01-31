@@ -14,7 +14,7 @@
 }
 
 .top-nav .logo {
-    
+
     width: 128px;
     height: 19px;
 }
@@ -44,4 +44,52 @@
     /* White */
 
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 1451px){
+    .rsv-nav {
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1450px) {
+    .top-nav {
+        display: none;
+    }
+
+    .rsv-nav {
+        position: absolute;
+        top: 0;
+        height: 122px;
+        /* width: 100%; */
+        background: rgba(194, 165, 249, 1);
+    }
+
+    .rsv-nav div{
+        width: 1450px;
+    }
+    .rsv-nav .logo-button .rsv-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 122px;
+    }
+
+    .rsv-nav .menu-logo {
+        position: absolute;
+        top: 52px;
+        left: 1390px;
+    }
+}
+
+
+@media screen and (max-width: 420px){
+ .rsv-nav {
+    width: 100%;
+    position: relative;
+ }
 }

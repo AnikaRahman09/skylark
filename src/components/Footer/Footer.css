@@ -1,4 +1,4 @@
-ul {
+footer ul {
     list-style: none;
     /* font-family: 'Interstate';
     font-style: normal;
@@ -12,9 +12,9 @@ ul {
 
 footer {
     position: absolute;
-    width: 1436px;
+    width: 1548px;
     height: 188px;
-    left: 4px;
+    /* left: 4px; */
     top: 3346px;
 }
 
@@ -76,7 +76,7 @@ footer {
     position: absolute;
     width: 210px;
     height: 43px;
-    left: 1178px;
+    left: 1290px;
     top: 40px;
     border: 1px solid #FFFFFF;
     border-radius: 20px;
@@ -118,18 +118,18 @@ footer {
     position: absolute;
     left: 3.36%;
     right: 3.36%;
-    top: 79.09%;
+    top: 41.09%;
     bottom: 13.34%;
 }
 
 .bottom-footer .terms-nav .terms ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 0px;
     gap: 16px;
-    width: 437px;
+    width: auto;
     height: 12.44px;
 }
 
@@ -164,4 +164,10 @@ opacity: 0.6;
     align-items: center;
     text-align: center;
     color: #FFFFFF;   
+}
+
+@media screen and (max-width: 1450px) {
+    footer {
+        width: 1450px;
+    }
 }

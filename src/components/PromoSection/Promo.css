@@ -1,8 +1,8 @@
 .promo-section {
     position: absolute;
-    width: 1436px;
+    width: 1548px;
     height: 809.99px;
-    left: 4px;
+    /* left: 4px; */
     top: 2476px;
 }
 
@@ -100,4 +100,10 @@
 .promo-section .promo-bg .promo-img img {
     width: 702.29px;
     height: 809.99px;
+}
+
+@media screen and (max-width: 1450px) {
+    .promo-section{
+        width: 1450px;
+    }
 }
