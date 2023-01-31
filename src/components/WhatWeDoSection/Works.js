@@ -9,7 +9,7 @@ import mobile from "./noun-mobile.png";
 const Works = () => {
     return (
         <>
-            <div className="works">
+            <div className="works" id="work-sec">
 
                 {/* DESIGN */}
                 <div className="work design">

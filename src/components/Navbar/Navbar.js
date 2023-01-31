@@ -13,10 +13,10 @@ const Navbar = () => {
             <div className="top-nav">
 
                 <div className="nav-style">
-                    <a href=''><h6>Who We Are</h6></a>
-                    <a href=''><h6>What We Do</h6></a>
-                    <a href=''><h6>Sectors</h6></a>
-                    <a href=''><h6>Transactions</h6></a>
+                    <a href='#whoweare'><h6>Who We Are</h6></a>
+                    <a href='#work-sec'><h6>What We Do</h6></a>
+                    <a href='#work-sec'><h6>Sectors</h6></a>
+                    <a href='#transactions'><h6>Transactions</h6></a>
                 </div>
 
                 <div className="logo">
@@ -24,10 +24,10 @@ const Navbar = () => {
                 </div>
 
                 <div className="nav-style">
-                    <a href=''><h6>Our People</h6></a>
-                    <a href=''><h6>Global Reach</h6></a>
-                    <a href=''><h6>Newsletter</h6></a>
-                    <a href=''><h6>Contact Us</h6></a>
+                    <a href='#whoweare'><h6>Our People</h6></a>
+                    <a href='#footer-sec'><h6>Global Reach</h6></a>
+                    <a href='#footer-sec'><h6>Newsletter</h6></a>
+                    <a href='#footer-sec'><h6>Contact Us</h6></a>
                 </div>
             </div>
             {/* NAVBAR FOR 1548px AND BIGGER */}

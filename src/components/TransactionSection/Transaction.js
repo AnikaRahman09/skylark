@@ -9,7 +9,7 @@ import card3 from "./card3.png"
 const Transaction = () => {
     return (
         <>
-            <div className="transaction-section">
+            <div className="transaction-section" id="transactions">
                 <div className="transaction">
 
                     {/* TRANSACTION HADING AND BUTTON */}

@@ -5,7 +5,7 @@ import image from "./promo-image.png"
 const Promo = () => {
     return (
         <>
-            <div className="promo-section">
+            <div className="promo-section" id='whoweare'>
                 <div className="promo-bg">
 
                     <div className="promo-content">

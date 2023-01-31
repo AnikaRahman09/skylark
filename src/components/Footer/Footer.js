@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
 
-        <footer>
+        <footer id="footer-sec">
             
             <div className="top-footer">
                 <div className="footer-nav">
